@@ -1,2 +1,24 @@
 # Ignoring generated files
 ./sanity.types.ts
+
+# Next.js build output
+.next
+out
+
+# Dependencies
+node_modules
+
+# Misc
+.vercel
+coverage
+
+# Public assets
+public
+
+# Environment and logs
+.env
+.env.local
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
