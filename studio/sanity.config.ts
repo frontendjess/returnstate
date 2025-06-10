@@ -47,10 +47,15 @@ function resolveHref(documentType?: string, slug?: string): string | undefined {
 // Main Sanity configuration
 export default defineConfig({
   name: 'default',
-  title: 'Sanity + Next.js Starter Template',
+  title: 'Return State Studio',
 
   projectId,
   dataset,
+
+  // Disable auto-updates
+  versionCheck: {
+    checkForUpdates: false,
+  },
 
   plugins: [
     // Presentation tool configuration for Visual Editing
